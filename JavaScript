@@ -13,6 +13,7 @@ Example:
 */
 
 Tip: Use comments to explain what your code is doing.
+
 2. Data Types
 JavaScript has 7 data types (6 primitive + objects):
 • undefined – a declared variable with no value yet.
@@ -47,16 +48,21 @@ var C = 25;
 
 JavaScript is case‑sensitive: A and a are different variable names.
 Use camelCase for variable names, e.g., totalScore, lastName.
+
 6. Increment and Decrement
 • Increment adds 1: myVar++;   (same as myVar = myVar + 1)
 • Decrement subtracts 1: myVar--;
 Example: var myVar = 11; myVar++; myVar--;
+
 7. Decimal Numbers & Remainders
+
 • Decimal example: var decimal = 5.7;
 • Remainder operator % returns the remainder after division:
 Example: 11 % 3; // 2
+
 8. Escaping Quotes & Escape Sequences
 To include quotes inside a string, either escape them with a backslash or use different outer quotes.
+
 Examples:
 var s1 = "I am a \"double‑quoted\" string";
 var s2 = 'I am a "double‑quoted" string';
@@ -105,13 +111,20 @@ function wordBlanks(myNoun, myAdj, myVerb, myAdverb) {
   return result;
 }
 console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
 13. Arrays
+
 • Arrays always start with a square bracket [ ]. Each element is separated by a comma.
 • Every element in the array is accessed by its index (starting from 0).
+
 Example: var myArray = ["Smith", 17];
+
 Nested Arrays
+
 Example: var myArray = [["Bulls", 23], ["Cod", 32]];
+
 Accessing Arrays
+
 You can access array elements using their index number.
 Example: var ourArray = [50, 60, 70]; var ourData = ourArray[0]; // 50
 Modifying Array Data
@@ -130,9 +143,12 @@ Manipulating Arrays with shift()
 shift() removes the first element from an array.
 Example: var removedFromArray = myArray.shift();
 Manipulating Arrays with unshift()
+
 unshift() adds an element to the beginning of an array.
 Example: myArray.unshift(["Liam", 18]);
+
 14. Functions
+
 Functions allow you to write reusable blocks of code.
 Example:
 function myReusableCode() {
@@ -144,7 +160,9 @@ Functions can take inputs (parameters) called arguments.
 Example:
 function myCodeWithArgs(a, b) { console.log(a + b); }
 myCodeWithArgs(10, 5); // 15
+
 15. Scope (Global vs Local)
+
 • Global Scope: Variables declared outside of a function are global. If var is used outside a function, it is global.
 • Local Scope: Variables declared inside a function are local to that function only.
 • Undefined Value: A function that doesn’t return anything will return undefined by default.
